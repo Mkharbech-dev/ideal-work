@@ -199,6 +199,12 @@ footer p {
         width: 10%;
         /* color: white; */
     }
+    footer {
+		justify-content: flex-start;
+	}
+	footer .column {
+		width: 80%;
+	}
 }
 
 
