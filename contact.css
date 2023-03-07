@@ -4,6 +4,10 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+
+:root {
+	--violet: #d33bfd;
+}
 .contact{
     position: relative;
     min-height: 100vh;
@@ -32,7 +36,7 @@
     font-size: 25px;
     color: #ffffff;
 }
-body{
+.main{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./img/6363ecab6d542car1.jpg);
 }
 .container1{
@@ -137,6 +141,44 @@ body{
 .logo{
 	width: 5%;
 	/* color: white; */
+}
+
+.footer {
+	margin: 0;
+	padding: 20px;
+	background-color: black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+footer {
+	margin: 0;
+	padding: 20px;
+	background-color: black;
+	text-align: center;
+	/* display: flex; */
+	/* flex-wrap: wrap; */
+	/* justify-content: space-around; */
+}
+footer h3 {
+	color: var(--violet);
+}
+
+footer p {
+	color: #ccc;
+}
+.footer a {
+	cursor: pointer;
+	color: #ccc;
+	margin: 15px 0;
+	text-decoration: none;
+}
+.footer a:hover {
+	color: white;
+}
+.column{
+	display: flex;
+	flex-direction: column;
 }
 @media (max-width: 991px) {
     .contact{
