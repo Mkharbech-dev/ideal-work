@@ -225,6 +225,10 @@ footer {
 		text-align: center;
 		/* flex-shrink: 3; */
 	}
+	.logo{
+        width: 10%;
+        /* color: white; */
+    }
 }
 
 .navbar-nav {
