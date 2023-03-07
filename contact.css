@@ -129,6 +129,15 @@ body{
     font-size: 18px;
     
 }
+
+.navbar-nav {
+	margin-left: auto;
+}
+
+.logo{
+	width: 5%;
+	/* color: white; */
+}
 @media (max-width: 991px) {
     .contact{
         padding: 50px;
@@ -144,4 +153,10 @@ body{
     {
         width: 100%;
     }
+    .logo{
+        width: 10%;
+        /* color: white; */
+    }
 }
+
+
