@@ -207,4 +207,26 @@ footer p {
 	}
 }
 
+.status {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+.status.success {
+background: greenyellow;
+visibility: visible;
+animation: 0s linear 2.3s forwards status;
+}
+.status.error {
+background: red;
+color: white;
+animation: 0s linear 2.3s forwards status;
+}
+@keyframes status {
+    to {
+      visibility: hidden;
+    }
+}
 
