@@ -194,13 +194,6 @@ footer {
 	display: flex;
 	flex-direction: column;
 }
-/* i{
-	background-color: rgb(154, 104, 40);
-    border-radius: 50%;
-    width: 30%;
-    height: 30%;
-    padding: 11px;
-} */
 .icone-medias {
     width: 35px;
     border-radius: 50%;
@@ -210,7 +203,10 @@ footer {
 	nav .right p {
 		display: none;
 	}
-
+	.navbar-toggler-icon {
+		width: 1.2em;
+		height: 1.8em;
+	}
 	.presentation .product-presentation h1 {
 		font-size: 1.6em;
 		width: 100%;
@@ -237,7 +233,7 @@ footer {
 	}
 	.column a{
 		font-size: 12px;
-		margin: 0 15;
+		margin: 0 10px;
 	}
 	.column {
 		font-size: 12px;
