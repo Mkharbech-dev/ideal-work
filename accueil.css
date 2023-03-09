@@ -11,7 +11,7 @@ body {
 }
 
 .logo{
-	width: 5%;
+	width: 20%;
 	/* color: white; */
 }
 
@@ -66,18 +66,18 @@ header nav .right button:hover {
 }
 
 .presentation {
-	padding: 30px 5%;
+	
 	margin-top: 5%;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 .presentation .product-presentation {
-	width: 150%;
-	/* flex-shrink: 3; */
+	width: 100%;
+	padding: 0 5%;
 }
 .presentation .product-presentation h1 {
-	margin: 0;
+	/* margin: 0; */
 	font-size: 4vw;
 	width: 60%;
 	/*text-align: center; */
@@ -87,7 +87,7 @@ header nav .right button:hover {
 	color: #ffffff;
 }
 .presentation .product-presentation button {
-	margin-top: 20px;
+	margin: 20px;
 	padding: 15px 20px;
 	font-size: 15px;
 	border-radius: 10px;
@@ -106,12 +106,15 @@ header nav .right button:hover {
 .presentation .image-presentation img {
 	width: 100%;
 	height: 50%;
+	padding: 5%;
 }
 
 .first .product-presentation button {
-	background-color: var(--violet);
+	/* background-color: var(--violet); */
+	background-color: #cd4e6c;
 	color: white;
-	border: 1px solid var(--violet);
+	/* border: 1px solid var(--violet); */
+	border: 1px solid #cd4e6c;
 	transition: background-color 0.5s, color 0.5s;
 }
 .first .product-presentation button:hover {
@@ -180,7 +183,7 @@ footer {
 .footer a {
 	cursor: pointer;
 	color: #ccc;
-	margin: 15px 0;
+	margin: 5px 0;
 	text-decoration: none;
 }
 .footer a:hover {
@@ -190,7 +193,18 @@ footer {
 	display: flex;
 	flex-direction: column;
 }
-
+/* i{
+	background-color: rgb(154, 104, 40);
+    border-radius: 50%;
+    width: 30%;
+    height: 30%;
+    padding: 11px;
+} */
+.icone-medias {
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
 @media screen and (max-width: 640px) {
 	nav .right p {
 		display: none;
@@ -226,7 +240,7 @@ footer {
 		/* flex-shrink: 3; */
 	}
 	.logo{
-        width: 10%;
+        width: 18%;
         /* color: white; */
     }
 }

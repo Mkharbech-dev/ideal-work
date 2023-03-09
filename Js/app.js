@@ -13,7 +13,7 @@ var form = document.getElementById("my-form");
         }
       }).then(response => {
         status.classList.add('success');
-        status.innerHTML = "Merci de m'avoir contacté";
+        status.innerHTML = "Merci de nous'avoir contacté";
         form.reset()
       }).catch(error => {
         status.classList.add('error');
