@@ -177,8 +177,9 @@ footer {
 	/* flex-wrap: wrap; */
 	/* justify-content: space-around; */
 }
-.footer h3 {
+.footer h6 {
 	color: var(--violet);
+	margin-bottom: 10px;
 }
 .footer a {
 	cursor: pointer;
@@ -224,8 +225,30 @@ footer {
 	footer {
 		justify-content: flex-start;
 	}
-	footer .column {
-		width: 80%;
+	/* .footer a {
+		cursor: pointer;
+		color: #ccc;
+		margin: 15px 9px;
+		text-decoration: none;
+		font-size: 11px;
+	} */
+	footer p{
+		font-size: 11px;
+	}
+	.column a{
+		font-size: 12px;
+		margin: 0 15;
+	}
+	.column {
+		font-size: 12px;
+	}
+	footer .reseaux{
+		width: 100%;
+		display: block;
+		padding: 8px;
+	}
+	.footer h5{
+		padding: 5px;
 	}
 
 	.presentation .product-presentation button {
