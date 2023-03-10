@@ -228,7 +228,8 @@ header nav .right button:hover {
 .container1 .contactInfo .box .icon{
     min-width: 60px;
     height: 60px;
-    background: white;
+    /* background: var(--violet); */
+	background: #00bcd4;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -244,15 +245,13 @@ header nav .right button:hover {
     font-weight: 400;
 }
 .text a{
-    width: 50%;
-    text-align: center;
-    border-radius: 5px;
-    padding: 5px;
-}
-.text a{
-    text-decoration: none;
-    color: black;
-    background-color: #00bcd4;
+    /* width: 100%; */
+    /* text-align: center; */
+    /* border-radius: 5px; */
+    /* padding: 13px; */
+    /* text-decoration: none; */
+    color: #00bcd4;
+    /* background-color: #00bcd4; */
 }
 .container1 .contactInfo .box .text h3{
     color: #ffffff;
@@ -377,6 +376,10 @@ footer p {
 	display: flex;
 	flex-direction: column;
 }
+.column .sociaux{
+	display: block;
+	margin:20 0;
+}
 .icone-medias {
     width: 35px;
     border-radius: 50%;
@@ -460,6 +463,7 @@ footer p {
 	}
 	.column {
 		font-size: 12px;
+		padding: 0px 17px;
 	}
 	footer .reseaux{
 		width: 100%;
