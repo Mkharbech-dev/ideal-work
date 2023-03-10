@@ -404,6 +404,12 @@ animation: 0s linear 2.3s forwards status;
     font-size: 25px;
     color: #ffffff;
 }
+.contactForm .inputBox input[type="submit"]{
+    background: #000000;
+    border-radius: 10px;
+}
+    
+
 
 /* *****************************footer*********************************** */
 .footer {
@@ -520,11 +526,12 @@ footer p {
 
 	.devis{
 		padding: 0px 20px;
+		background: var(--violet);
 	}
 	.devis .content h2 {
 		font-size: 18px;
 		font-weight: 500;
-		color: #ffffff;
+		color: #0b0b0b;
 		text-align: center;
 		padding-top: 30px;
 		/* margin-bottom: 10px; */
