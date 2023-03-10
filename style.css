@@ -525,7 +525,7 @@ footer p {
 	/* **************devis******************** */
 
 	.devis{
-		padding: 10px 20px;
+		padding: 10px 16px;
 		background: var(--violet);
 	}
 	.devis .content h2 {
