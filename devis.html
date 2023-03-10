@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<link rel="shortcut icon" type="./img/logo.png" href="">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Page de contact</title>
+		<title>page de devis</title>
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 		<link rel="stylesheet" href="style.css" />
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -44,56 +44,36 @@
             </div>
         </nav>
     </header>
-    <section class="contact">
+    <section class="devis">
         <div class="content">
-            <h2>Contactez-nous</h2>
-            <p>Ideal Work France. Béton Ciré, Terrazzo, Bétons décoratifs</p>
+            <h2>Demander un devis gratuit</h2>
         </div>
-            <div class="container1">
-                <div class="contactInfo">
-                    <div class="box">
-                        <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                        <div class="text">
-                            <h3>Addresse</h3>
-                            <p>38 bis Bd Beaumarchais <br> 75011 <br> Paris<br>Métro Ligne 8 chemin vert</p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
-                        <div class="text">
-                            <h3>Téléphonne</h3>
-                            <p>09 80 97 46 78</p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
-                        <div class="text">
-                            <h3>Email</h3>
-                            <p>idealworkparis@gmail.com</p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="icon"><i class="fa fa-calendar" aria-hidden="true"></i></div>
-                        <div class="text">
-                            <h3>Prise rendez-vous</h3>
-                            <a href="https://idealwork.reservio.com/" target="_blank">Cliquez <span>Ici</span></a>
-                        </div>
-                    </div>
-                </div>
+            <div class="devis-content">
                 <div class="contactForm">
                     <form id="my-form" action="https://formspree.io/f/mpzelazl" method="POST">
-                        <h2>Envoyer message</h2>
                         <div class="inputBox">
                             <input type="text" name="nom" id="nom" required="required">
-                            <span>Nom complet</span>
+                            <span>Nom</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="text" name="prenom" id="prenom" required="required">
+                            <span>Prénom</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="text" name="adress" id="adress" required="required">
+                            <span>Adresse</span>
                         </div>
                         <div class="inputBox">
                             <input type="email" name="email" id="email" required="required">
                             <span>Email</span>
                         </div>
                         <div class="inputBox">
+                            <input type="email" name="tel" id="tel" required="required">
+                            <span>Tél</span>
+                        </div>
+                        <div class="inputBox">
                             <textarea id="txt" name="txt" required="required"></textarea>
-                            <span>saisir votre message...</span>
+                            <span>déscription du chantier...</span>
                         </div>
                         <div class="inputBox">
                             <input type="submit" value="Envoyer">
@@ -139,21 +119,10 @@
                         <img src="./img/linkdin.png" alt="linkden icone" class="icone-medias">
                     </a>
                 </div>
-                <!--<i style="background-color: rgb(154, 104, 40); border-radius:20%; width:50%; Height:50%" class="fa fa-facebook"></i>
-                <a href="https://www.facebook.com/IdealWorkofficial/" target="_blank">Facebook</a>
-                <a href="https://www.youtube.com/@idealwork" target="_blank">Youtube</a>
-                <a href="https://www.instagram.com/beton_cire_idealworkparis/" target="_blank">Instagram</a>
-                <a href="https://www.linkedin.com/company/ideal-work-concrete-decorative-surfaces-indoor-outdoor/" target="_blank">Linkdin</a>
-                -->
             </div>
         </div>
     </footer>
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src ="./Js/app.js"></script>
-    
 </body>
 </html>

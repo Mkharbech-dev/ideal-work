@@ -336,7 +336,74 @@ animation: 0s linear 2.3s forwards status;
       visibility: hidden;
     }
 }
-
+/* **************devis******************** */
+.devis-content .contactInfo .box .text h3{
+    color: #ffffff;
+    font-weight: 700;
+}
+.devis-content{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.devis-content .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.devis-content .contactInfo .box{
+    position: relative;
+    display: flex;
+    padding: 20px 0;
+}
+.devis-content .contactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    /* background: var(--violet); */
+	background: #00bcd4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.devis-content .contactInfo .box .text{
+    margin-left: 20px;
+    color: #ffffff;
+    display: flex;
+    font-size: 16px;
+    flex-direction: column;
+    font-weight: 400;
+}
+.devis{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+	background-image: url(./img/devis_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+	
+}
+.devis .content{
+    max-width: 800px;
+    /* text-align: center; */
+}
+.devis .content h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffffff; 
+    margin-bottom: 10px;
+}
+.devis .content p{
+    font-weight: 300;
+    font-size: 25px;
+    color: #ffffff;
+}
 
 /* *****************************footer*********************************** */
 .footer {
@@ -449,6 +516,22 @@ footer p {
     .contactForm h2{
         font-size: 20px;
     }
+	/* **************devis******************** */
+
+	.devis{
+		padding: 0px 20px;
+	}
+	.devis .content h2 {
+		font-size: 18px;
+		font-weight: 500;
+		color: #ffffff;
+		text-align: center;
+		padding-top: 30px;
+		/* margin-bottom: 10px; */
+	}
+	.devis-content{
+		margin-top: auto;
+	}
 
 	/* *********************footer****************** */
 	footer {
