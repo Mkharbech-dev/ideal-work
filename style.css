@@ -136,7 +136,7 @@ header nav .right button:hover {
 	color: var(--violet);
 }
 .first .product-presentation .small-images {
-	margin-top: 30px;
+	/* margin-top: 30px; */
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -145,7 +145,7 @@ header nav .right button:hover {
 .first .product-presentation .small-images .small {
 	padding: 20px;
 	background-color: #33314d;
-	margin: 0 15px 15px 0;
+	margin: 30px 15px;
 	border-radius: 20px;
 	transition: filter 0.5s;
 }
@@ -496,7 +496,12 @@ footer p {
 		display: none;
 	}
 	.first .product-presentation .small-images .small img {
-		width: 90px;
+		width: 118px;
+	}
+	.first .product-presentation .small-images .small {
+		padding: 10px;
+		margin: 15 15;
+		border-radius: 7px;
 	}
 
 	.presentation .product-presentation button {
