@@ -461,7 +461,7 @@ footer p {
 	margin:20 0;
 }
 .icone-medias {
-    width: 35px;
+    width: 50px;
     border-radius: 50%;
     margin-right: 10px;
 }
@@ -595,7 +595,9 @@ footer p {
 	.text-3{
 		font-size: 13px;
 	}
-	
+	.icone-medias {
+		width: 35px;
+	}
 }
 
 .navbar-nav {
