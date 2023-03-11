@@ -417,7 +417,10 @@ animation: 0s linear 2.3s forwards status;
 	padding: 15px;
 	background-color: #000000;
 }
-
+.portfolio .text-center{
+	color: #d33bfd;
+	margin-bottom: 20px;
+}
 /* *****************************footer*********************************** */
 .footer {
 	margin: 0;
@@ -563,6 +566,12 @@ footer p {
 	}
 	.devis-content{
 		margin-top: auto;
+	}
+
+	/* ***********************portfolio******************* */
+	.portfolio .text-center{
+		color: #d33bfd;
+		margin-bottom: 15px;
 	}
 
 	/* *********************footer****************** */
