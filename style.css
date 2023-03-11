@@ -24,7 +24,9 @@ body {
 }
 header {
 	/* background: linear-gradient(#13181d, #20212e, #341b47); */
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./img/6363ecc47f6c8car2.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(img/6363ecab6d542car1.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
 }
 
 header nav {
@@ -409,7 +411,11 @@ animation: 0s linear 2.3s forwards status;
     border-radius: 10px;
 }
     
-
+/* ****************************portfolio**************************** */
+.portfolio{
+	padding: 15px;
+	background-color: #000000;
+}
 
 /* *****************************footer*********************************** */
 .footer {
