@@ -323,7 +323,8 @@ header nav .right button:hover {
     border-radius: 8px;
 }
 .status.success {
-background: greenyellow;
+background: rgb(29, 218, 63);
+color: #000000;
 /* background: #5be172; */
 visibility: visible;
 animation: 0s linear 2.3s forwards status;
