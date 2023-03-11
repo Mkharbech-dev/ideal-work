@@ -421,7 +421,7 @@ animation: 0s linear 2.3s forwards status;
 .footer {
 	margin: 0;
 	padding: 20px;
-	background-color: black;
+	/* background-color: black; */
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -463,6 +463,19 @@ footer p {
     width: 35px;
     border-radius: 50%;
     margin-right: 10px;
+}
+
+.justify-content-center {
+    justify-content: center!important;
+    background: white;
+    margin: 30px;
+    padding: 20px 0;
+}
+.col-lg-5 {
+    width: 50%;
+}
+footer p {
+    color: #000000;
 }
 
 @media screen and (max-width: 640px) {
@@ -568,6 +581,13 @@ footer p {
 	}
 	.footer h5{
 		padding: 5px;
+	}
+	footer .justify-content-center {
+		margin: 0; 
+	
+	}
+	.text-3{
+		font-size: 13px;
 	}
 	
 }
