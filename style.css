@@ -90,6 +90,10 @@ header nav .right button:hover {
 	width: 100%;
 	padding: 0 5%;
 }
+.presentation .product-presentation a{
+	text-decoration: none;
+	
+}
 .presentation .product-presentation h1 {
 	/* margin: 0; */
 	font-size: 4vw;
@@ -98,7 +102,7 @@ header nav .right button:hover {
 }
 .presentation .product-presentation p {
 	font-weight: 500;
-	color: #ffffff;
+	padding-top: 50;
 }
 .presentation .product-presentation button {
 	margin: 20px;
@@ -155,7 +159,11 @@ header nav .right button:hover {
 .first .product-presentation .small-images .small img {
 	width: 300px;
 }
-
+.first .product-presentation .small-images p{
+	color: #fdfdfd;
+	font-size: 25;
+	font-weight: bold;
+}
 .second {
 	margin: 0;
 	background-color: #13181d;
@@ -507,7 +515,11 @@ footer p {
 		margin: 15 15;
 		border-radius: 7px;
 	}
-
+	.first .product-presentation .small-images P{
+		color: #fdfdfd;
+		font-size: 15;
+		font-weight: bold;
+	}
 	.presentation .product-presentation button {
 		margin-top: 10px;
 		padding: 10px 15px;
