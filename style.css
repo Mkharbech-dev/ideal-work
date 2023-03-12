@@ -500,6 +500,12 @@ footer p {
 		height: 1.8em;
 	}
 	/* *************************presentation***************************** */
+	header {
+		/* background: linear-gradient(#13181d, #20212e, #341b47); */
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(img/background.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
 	.presentation .product-presentation h1 {
 		font-size: 1.6em;
 		width: 100%;
@@ -530,6 +536,7 @@ footer p {
 		width: 120%;
 		text-align: center;
 		/* flex-shrink: 3; */
+		padding: 5% 5%;
 	}
 	.logo{
         width: 18%;
