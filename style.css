@@ -24,7 +24,7 @@ body {
 }
 header {
 	/* background: linear-gradient(#13181d, #20212e, #341b47); */
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(img/6363ecab6d542car1.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(img/accueil2.jpg);
 	background-size: cover;
     background-repeat: no-repeat;
 }
