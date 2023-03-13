@@ -24,7 +24,7 @@ body {
 }
 header {
 	/* background: linear-gradient(#13181d, #20212e, #341b47); */
-	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(img/6363ecdc98602car4.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(../img/6363ecdc98602car4.jpg);
 	background-size: cover;
     background-repeat: no-repeat;
 }
@@ -195,7 +195,7 @@ header nav .right button:hover {
     align-items: center;
     flex-direction: column;
     /* background: url(img/bg.jpg); */
-	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(./img/6363ecab6d542car1.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../img/6363ecab6d542car1.jpg);
     /* background: transparent; */
     background-size: cover;
     background-repeat: no-repeat;
@@ -216,7 +216,7 @@ header nav .right button:hover {
     color: #ffffff;
 }
 .main{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./img/6363ecab6d542car1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/6363ecab6d542car1.jpg);
 }
 .container1{
     width: 100%;
@@ -395,7 +395,7 @@ animation: 0s linear 2.3s forwards status;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-	background-image: url(./img/devis_image.jpg);
+	background-image: url(../img/devis_image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 	
@@ -446,6 +446,9 @@ footer {
 	/* display: flex; */
 	/* flex-wrap: wrap; */
 	/* justify-content: space-around; */
+}
+.portfolio footer{
+	background-color: white;
 }
 footer p {
 	color: #ccc;
@@ -502,7 +505,7 @@ footer p {
 	/* *************************presentation***************************** */
 	header {
 		/* background: linear-gradient(#13181d, #20212e, #341b47); */
-		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(img/6363ecdc98602car4.jpg);
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/6363ecdc98602car4.jpg);
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
