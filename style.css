@@ -24,7 +24,7 @@ body {
 }
 header {
 	/* background: linear-gradient(#13181d, #20212e, #341b47); */
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(img/accueil2.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(img/6363ecdc98602car4.jpg);
 	background-size: cover;
     background-repeat: no-repeat;
 }
@@ -502,7 +502,7 @@ footer p {
 	/* *************************presentation***************************** */
 	header {
 		/* background: linear-gradient(#13181d, #20212e, #341b47); */
-		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(img/background.jpg);
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(img/6363ecdc98602car4.jpg);
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
@@ -523,8 +523,8 @@ footer p {
 	}
 	.first .product-presentation .small-images P{
 		color: #fdfdfd;
-		font-size: 15;
-		font-weight: bold;
+		font-size: 12;
+		font-weight: normal;
 	}
 	.presentation .product-presentation button {
 		margin-top: 10px;
