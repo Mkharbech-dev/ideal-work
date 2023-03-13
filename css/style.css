@@ -578,18 +578,22 @@ footer p {
 
 	.devis{
 		padding: 10px 16px;
-		background: var(--violet);
+		/* background: var(--violet); */
 	}
 	.devis .content h2 {
 		font-size: 18px;
-		font-weight: 500;
-		color: #0b0b0b;
+		font-weight: bold;
+		color: #ece3e3;
 		text-align: center;
-		/* padding-top: 30px; */
+		padding-top: 18px;
 		/* margin-bottom: 10px; */
 	}
 	.devis-content{
-		margin-top: auto;
+		margin-top: 10;
+
+	}
+	.contactForm .inputBox {
+		margin-top: 5px;
 	}
 
 	/* ***********************portfolio******************* */
