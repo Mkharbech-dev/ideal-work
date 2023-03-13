@@ -447,6 +447,7 @@ footer {
 	/* flex-wrap: wrap; */
 	/* justify-content: space-around; */
 }
+
 .portfolio footer{
 	background-color: white;
 }
@@ -469,6 +470,7 @@ footer p {
 .column{
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 .column .sociaux{
 	display: block;
