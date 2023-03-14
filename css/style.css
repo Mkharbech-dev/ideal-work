@@ -495,6 +495,12 @@ footer p {
     color: #000000;
 }
 
+/* *********animation********* */
+.txt-animation{
+	/* background: #ce2929; */
+	/* color: #000000; */
+}
+
 @media screen and (max-width: 640px) {
 	/* ***********************navbar***************************** */
 	nav .right p {
