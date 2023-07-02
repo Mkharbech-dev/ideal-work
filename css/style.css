@@ -148,7 +148,7 @@ header nav .right button:hover {
 }
 .first .product-presentation .small-images .small {
 	padding: 20px;
-	background-color: #cd4e6c;
+	background-color: #f9f5e8;
 	margin: 30px 15px;
 	border-radius: 20px;
 	transition: filter 0.5s;
@@ -507,7 +507,7 @@ footer p {
 	/* *************************presentation***************************** */
 	header {
 		/* background: linear-gradient(#13181d, #20212e, #341b47); */
-		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/6363ecdc98602car4.jpg);
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/accueil1.jpg);
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
